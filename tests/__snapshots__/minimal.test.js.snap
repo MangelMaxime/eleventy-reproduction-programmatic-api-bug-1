@@ -1,0 +1,70 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`minimal 1`] = `
+[
+  {
+    "content": "<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello</title>
+</head>
+<body>
+    <div class="layout" role="document">
+        <main id="main" class="main">
+            <h1>Hello</h1>
+
+        </main>
+    </div>
+</body>
+</html>
+",
+    "inputPath": "/Users/mmangel/Workspaces/Github/MangelMaxime/eleventy-reproduction-programmatic-api-bug-1/tests/fixtures/minimal/_site/index.html",
+    "outputPath": "./_site/_site/index.html",
+    "rawInput": "<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello</title>
+</head>
+<body>
+    <div class="layout" role="document">
+        <main id="main" class="main">
+            <h1>Hello</h1>
+
+        </main>
+    </div>
+</body>
+</html>
+",
+    "url": "/_site/",
+  },
+  {
+    "content": "<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello</title>
+</head>
+<body>
+    <div class="layout" role="document">
+        <main id="main" class="main">
+            <h1>Index page</h1>
+
+        </main>
+    </div>
+</body>
+</html>
+",
+    "inputPath": "/Users/mmangel/Workspaces/Github/MangelMaxime/eleventy-reproduction-programmatic-api-bug-1/tests/fixtures/minimal/index.md",
+    "outputPath": "./_site/index.html",
+    "rawInput": "
+# Index page
+",
+    "url": "/",
+  },
+]
+`;
